@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.showem {
+    display: block;
+    height: 30vh;
+    overflow-y: scroll;
+}
+
+.hidem {
+    display: none;
+}
+
+.trans-amount {
+    text-align: right;
+    margin: 0;
+    padding-right: 1em;
+}
+
+.trans-date {
+    margin-right: 1.5em;
+    text-align: right;
+
+}
+
+.trans-detail-list {
+  list-style: none;
+  margin-bottom: 2em;
+  margin-left: 1.5em;
+}
+
+
+.trans-detail-list li {
+    display: grid;
+    text-align: left;
+    grid-template-columns: min-content 8em max-content auto;
+
+}
+
+.trans-detail-list li:nth-child(odd) {
+    background-color: rgb(56, 56, 73);
+}
+
+ .trans-detail-list li label {
+    width: .15em;
+}

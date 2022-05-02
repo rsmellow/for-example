@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.editor {
+    display: block;
+    position: fixed;
+    z-index: 1;
+    top: 5%;
+    left: 5%;
+    width: 95%;
+    height: 95%;
+    overflow: auto; 
+}
+
+.editor form {
+    margin: 15% auto;
+    padding: 1em;
+    border: thin white ridge;
+    font-size: normal;
+    background-color:dimgray;
+    text-decoration: none;
+    width: 70vw;
+}
+
+.editor label {
+    font-size: xx-large;
+    font-weight: bold;
+    letter-spacing: .35ex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*
+.editor input {
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border:0.1em solid lightgray;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-weight:300;
+    color: darkslateblue;
+    text-align:center;
+    transition: all 0.2s;
+}
+
+.editor input:hover {
+    color: dimgray;
+    background-color: beige;
+}
+*/
+

@@ -2,6 +2,8 @@
 
 Projects used to illustrate my coding styles
 
+## banking-app
+
 * __server__
 
     This is a minimal node/express web service providing a REST API to access persisted transaction data
@@ -10,6 +12,8 @@ Projects used to illustrate my coding styles
 
     This is a react web application used to view transaction data and to manipulate transaction meta-data
 
-* __trans-reader__
+## trans-reader
+
+* __banking__
 
     This is a .NET core application used to parse raw transaction information and persist transaction data
